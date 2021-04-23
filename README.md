@@ -10,4 +10,6 @@ The original UI design for this project 'hiring/assets/UI Designs'
 1. clone the project
 2. yarn start
 
-### Note : Design for mobile and desktop view
+### Note : Design for both mobile and desktop view
+
+![alt text](https://github.com/DanLowo/UI-UX-INTO-CODE/blob/hiring/src/hiring/assets/UI%20Designs/Hiring%20Design.jpeg?raw=true)
