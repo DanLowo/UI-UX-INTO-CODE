@@ -17,7 +17,7 @@ function Cards() {
             <div id="fintech">
                 <DynamicBar title="My Cards" />
                 <Card name="Damilola Francis" expiryDate="02/24" number="5696 **** **** **69"/>
-                <Button component={Link} to="/fintech/new-card" startIcon={<AddIcon />} fullWidth variant="outlined" color="primary" id="noSubscriptionsButton">Add New Card</Button>
+                <Button component={Link} to="/new-card" startIcon={<AddIcon />} fullWidth variant="outlined" color="primary" id="noSubscriptionsButton">Add New Card</Button>
                 <Subscriptions show={true} sectionTitle="Linked Subscriptions" showTabs={false}/>
             </div>
             <div id="bottomNavSpacing">

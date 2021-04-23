@@ -86,7 +86,7 @@ function NewCard() {
                     <img alt="card" src={CardInWallet}  id="addedCardImg" />
                     <Typography variant="h6">Bank Card Added</Typography>
                     <Typography variant="body2">You have successfully added a new bank card to your account</Typography>
-                    <Button component={Link} to="/fintech" fullWidth variant="contained" color="primary" id="noSubscriptionsButton">Done</Button>
+                    <Button component={Link} to="/" fullWidth variant="contained" color="primary" id="noSubscriptionsButton">Done</Button>
                 </div>
             </Drawer>
             <div id="bottomNavSpacing">

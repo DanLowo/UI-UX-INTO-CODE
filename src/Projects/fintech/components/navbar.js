@@ -18,7 +18,7 @@ function navbar() {
                 </span>
                 <span>
                     <Avatar id="avatar" src="https://material-ui.com/static/images/avatar/2.jpg" />
-                    <IconButton component={Link} to="/fintech/notifications" id="notification">
+                    <IconButton component={Link} to="/notifications" id="notification">
                         <Badge badgeContent={0} showZero color="secondary">
                             <Notification fontSize="medium" />
                         </Badge>
