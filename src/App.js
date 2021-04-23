@@ -11,7 +11,7 @@ import "./Projects/fintech/assets/app.scss";
 import { Switch, Route } from "react-router-dom"
 
 function App() {
-  return <div className="App FintechApp">
+  return <div className="App">
       <Switch>
 
         {/* set all fintech design routes */}
