@@ -1,12 +1,12 @@
 // import all pages from fintech design
-import FintechDesign from "./Projects/fintech/index"
-import Subscriptions from "./Projects/fintech/subscriptions"
-import Notifications from "./Projects/fintech/notifications"
-import Cards from "./Projects/fintech/cards"
-import NewCard from "./Projects/fintech/newCard"
-import Profile from "./Projects/fintech/profile"
+import FintechDesign from "./fintech/index"
+import Subscriptions from "./fintech/subscriptions"
+import Notifications from "./fintech/notifications"
+import Cards from "./fintech/cards"
+import NewCard from "./fintech/newCard"
+import Profile from "./fintech/profile"
 
-import "./Projects/fintech/assets/app.scss";
+import "./fintech/assets/app.scss";
 
 import { Switch, Route } from "react-router-dom"
 
