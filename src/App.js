@@ -6,11 +6,12 @@ import Cards from "./Projects/fintech/cards"
 import NewCard from "./Projects/fintech/newCard"
 import Profile from "./Projects/fintech/profile"
 
+import "./Projects/fintech/assets/app.scss";
 
 import { Switch, Route } from "react-router-dom"
 
 function App() {
-  return <div className="App">
+  return <div className="App FintechApp">
       <Switch>
 
         {/* set all fintech design routes */}

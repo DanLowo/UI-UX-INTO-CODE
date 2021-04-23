@@ -1,7 +1,5 @@
 import React from 'react'
 
-import "./assets/App.css"
-
 import DynamicBar from "./components/dynamicBar"
 import BottomNav from "./components/bottomNav"
 import LinkedAccounts from './components/linkedAccounts'
