@@ -11,3 +11,7 @@ The original UI design for this project 'fruit/assets/UI Designs'
 2. yarn start
 
 ### Note : Design only for mobile view
+
+![alt text](https://github.com/DanLowo/UI-UX-INTO-CODE/blob/fruit/src/fruit/assets/UI%20Designs/1.jpeg?raw=true)
+
+![alt text](https://github.com/DanLowo/UI-UX-INTO-CODE/blob/fruit/src/fruit/assets/UI%20Designs/2.jpeg?raw=true)
