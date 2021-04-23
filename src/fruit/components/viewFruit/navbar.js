@@ -9,7 +9,7 @@ function navbar() {
     return (
         <div id="navbar">
             <span id="navbar-title">
-                <Link to="/fruit">
+                <Link to="/">
                     <ChevronLeftIcon />
                 </Link> </span>
             <span> <FavoriteIcon htmlColor="green" /> </span>

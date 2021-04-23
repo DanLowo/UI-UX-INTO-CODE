@@ -110,6 +110,10 @@
     margin-top: 20px;
 }
 
+.fruitGrid a{
+    text-decoration: none;
+}
+
 #fruitGridPaper{
     padding: 10px;
     margin-top: 15px;

@@ -10,7 +10,7 @@ function fruitSlide() {
         <div id="fruitSlide">
             {fruits.map(fruit => (
                 <span key={fruit} id="fruitSlideItem">
-                    <NavLink exact activeClassName="fruitSlideItemActive" to={"/fruit/" + fruit}>
+                    <NavLink exact activeClassName="fruitSlideItemActive" to={"/#" + fruit}>
                         {fruit}
                     </NavLink>
                 </span>

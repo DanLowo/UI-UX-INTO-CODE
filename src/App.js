@@ -1,13 +1,9 @@
 
-// import all pages for hiring design
-import HiringDesign from './Projects/hiring/index'
-import ViewJob from './Projects/hiring/viewJob'
-
 // import all pages for fruit design
-import FruitDesign from "./Projects/fruit/index"
-import ViewFruit from "./Projects/fruit/viewFruit"
-import Cart from "./Projects/fruit/cart"
-import Account from "./Projects/fruit/account"
+import FruitDesign from "./fruit/index"
+import ViewFruit from "./fruit/viewFruit"
+import Cart from "./fruit/cart"
+import Account from "./fruit/account"
 
 import { Switch, Route } from "react-router-dom"
 
@@ -15,26 +11,17 @@ function App() {
   return <div className="App">
       <Switch>
 
-      {/* set all hirign design routes */}
-        <Route exact path="/">
-          <HiringDesign/>
-        </Route>
-        <Route path="/view-job">
-          <ViewJob/>
-        </Route>
-
-
       {/* set all fruit design routes */}
-        <Route path="/fruit">
+        <Route exact path="/">
           <FruitDesign/>
         </Route>
-        <Route path="/fruits/view-fruit">
+        <Route path="/view-fruit">
           <ViewFruit/>
         </Route>
-        <Route path="/fruits/cart">
+        <Route path="/cart">
           <Cart/>
         </Route>
-        <Route path="/fruits/account">
+        <Route path="/account">
           <Account/>
         </Route>
 

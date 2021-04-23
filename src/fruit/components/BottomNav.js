@@ -11,18 +11,18 @@ import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import AppsIcon from '@material-ui/icons/Apps';
 
 function BottomNav() {
-
-    const [value, setValue] = useState(0);
+    const pathname = window.location.pathname
+    const [value, setValue] = useState(pathname);
     return (
         <div>
             <BottomNavigation id="bottomNav" showLabels value={value}
                 onChange={(event, newValue) => {
                     setValue(newValue);
                 }}>
-                <BottomNavigationAction component={Link} to="/fruit" label="Home" icon={<AppsIcon />} />
+                <BottomNavigationAction value="/" component={Link} to="/" label="Home" icon={<AppsIcon />} />
                 <BottomNavigationAction label="Wish List" icon={<FavoriteIcon />} />
-                <BottomNavigationAction component={Link} to="/fruits/cart" label="My Cart" icon={<ShoppingCartIcon />} />
-                <BottomNavigationAction component={Link} to="/fruits/account" label="Account" icon={<PersonIcon />} />
+                <BottomNavigationAction value="/cart" component={Link} to="/cart" label="My Cart" icon={<ShoppingCartIcon />} />
+                <BottomNavigationAction value="/account" component={Link} to="/account" label="Account" icon={<PersonIcon />} />
             </BottomNavigation>
         </div>
     )

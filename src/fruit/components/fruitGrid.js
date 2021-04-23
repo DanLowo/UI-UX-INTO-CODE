@@ -40,7 +40,7 @@ function fruitGrid() {
             <Grid container spacing={1}>
                 {fruits.map(fruit => (
                     <Grid key={fruit.name} item xs={6} sm={6} md={3} lg={3}>
-                        <Link to="/fruits/view-fruit">
+                        <Link to="/view-fruit">
                             <Paper id="fruitGridPaper">
                                 <img src={fruit.img} alt={fruit.name} />
                                 <Typography component="h5" variant="h5" id="fruitGridName"> {fruit.name} </Typography>
