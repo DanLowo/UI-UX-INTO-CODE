@@ -15,5 +15,7 @@ The original UI design for this project 'fintech/assets/UI Designs'
 ### Note : Design only for mobile view
 
 ![alt text](https://github.com/DanLowo/UI-UX-INTO-CODE/blob/fintech/src/fintech/assets/UI%20Designs/1.jpeg?raw=true)
+
 ![alt text](https://github.com/DanLowo/UI-UX-INTO-CODE/blob/fintech/src/fintech/assets/UI%20Designs/2.jpeg?raw=true)
+
 ![alt text](https://github.com/DanLowo/UI-UX-INTO-CODE/blob/fintech/src/fintech/assets/UI%20Designs/3.jpeg?raw=true)
