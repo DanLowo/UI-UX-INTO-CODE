@@ -10,3 +10,4 @@ The original UI design for this project 'fintech/assets/UI Designs'
 1. clone the project
 2. yarn start
 
+### Note : Design only for mobile view
