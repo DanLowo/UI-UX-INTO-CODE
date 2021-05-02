@@ -1,6 +1,5 @@
 ### Fintech Design
 
-https://github.com/DanLowo/UI-UX-INTO-CODE/blob/fintech/src/fintech/assets/UI%20Designs/2.jpeg
 
 A subscription management app that keeps track of all the subscriptions on your card and shows you when it is time to renew etc.
 
